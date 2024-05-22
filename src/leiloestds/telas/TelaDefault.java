@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
-import leiloes.layouts.RoundedButtonRadius;
+import leiloestds.layouts.RoundedButtonRadius;
 import leiloestds.classes.ConfigFrame;
 
 public class TelaDefault implements ActionListener {
@@ -94,6 +94,12 @@ public class TelaDefault implements ActionListener {
         pnlImages.setLayout(null);
         layerDefault.add(pnlImages, JLayeredPane.DEFAULT_LAYER);
         
+        pnlBot = new JPanel();
+        pnlBot.setBounds(0, 751, 1920, 329);
+        pnlBot.setBackground(Color.WHITE);
+        pnlBot.setLayout(null);
+        layerDefault.add(pnlBot, JLayeredPane.DEFAULT_LAYER);
+        
     }
     
     
@@ -153,9 +159,9 @@ public class TelaDefault implements ActionListener {
             configFrame.getMainFrame().repaint();
             
         } else if(e.getSource() == btnVendas) {
-            configFrame.getMainFrame().remove(layerDefault);
-            configFrame.getManager().getTelas().getTelaInicial().configTelaInicial();
-            configFrame.getMainFrame().repaint();
+            //configFrame.getMainFrame().remove(layerDefault);
+            //configFrame.getManager().getTelas().getTelaInicial().configTelaInicial();
+            //configFrame.getMainFrame().repaint();
             
         }
         

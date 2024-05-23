@@ -13,7 +13,7 @@ import leiloestds.classes.ConfigFrame;
 public class TelaDefault implements ActionListener {
 
     private final ConfigFrame configFrame;
-    private final JLayeredPane layerDefault;
+    private JLayeredPane layerDefault;
     private JPanel pnlBlue;
     private JPanel pnlImages;
     private JPanel pnlBot;
@@ -24,7 +24,6 @@ public class TelaDefault implements ActionListener {
     
     public TelaDefault(ConfigFrame configFrame) {
         this.configFrame = configFrame;
-        this.layerDefault = new JLayeredPane();
     }
 
     
@@ -72,6 +71,7 @@ public class TelaDefault implements ActionListener {
     
     public void configLayers() {
         
+        layerDefault = new JLayeredPane();
         layerDefault.setBounds(0, 0, 1920, 1080);
         layerDefault.setLayout(null);
         
@@ -145,22 +145,26 @@ public class TelaDefault implements ActionListener {
         
         if(e.getSource() == btnHome) {
             configFrame.getMainFrame().remove(layerDefault);
+            configTelaDefault();
             configFrame.getManager().getTelas().getTelaInicial().configTelaInicial();
             configFrame.getMainFrame().repaint();
             
         } else if(e.getSource() == btnCadastro) {
             configFrame.getMainFrame().remove(layerDefault);
-            configFrame.getManager().getTelas().getTelaInicial().configTelaInicial();
+            configTelaDefault();
+            configFrame.getManager().getTelas().getTelaCadastro().configTelaCadastro();
             configFrame.getMainFrame().repaint();
             
         } else if(e.getSource() == btnProdutos) {
             configFrame.getMainFrame().remove(layerDefault);
-            configFrame.getManager().getTelas().getTelaInicial().configTelaInicial();
+            configTelaDefault();
+            configFrame.getManager().getTelas().getTelaProdutos().configTelaProdutos();
             configFrame.getMainFrame().repaint();
             
         } else if(e.getSource() == btnVendas) {
             //configFrame.getMainFrame().remove(layerDefault);
-            //configFrame.getManager().getTelas().getTelaInicial().configTelaInicial();
+            configTelaDefault();
+            //configFrame.getManager().getTelas().getTelaVendas().configTelaVendas();
             //configFrame.getMainFrame().repaint();
             
         }

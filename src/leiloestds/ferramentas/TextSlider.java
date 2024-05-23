@@ -10,7 +10,6 @@ import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JLayeredPane;
 import javax.swing.JTextPane;
@@ -205,36 +204,28 @@ public class TextSlider extends JLayeredPane implements ActionListener {
                 if(lblFirstTitle.getX() <= -492 && lblFirstTitle.getX() >= -996) {
                     resizeText(lblFirstTitle.getX() - 498);
                     if(lblFirstTitle.getX() == -498) {
-                        System.out.println("pause");
                         pausarTimer();
                     }
-                    System.out.println("entrou - " + (lblFirstTitle.getX()));
                 }
                 if(lblFirstTitle.getX() <= 0 && lblFirstTitle.getX() >= -492) {
                     resizeText(lblFirstTitle.getX() - 996);
                     if(lblFirstTitle.getX() == 0) {
-                        System.out.println("pause2");
                         pausarTimer();
                     }
-                    System.out.println("entrou2 - " + (lblFirstTitle.getX()));
                 }
                 
             } else if(btnSelecionado == rightBtn) {
                 if(lblFirstTitle.getX() <= 0 && lblFirstTitle.getX() >= -492) {
                     resizeText(lblFirstTitle.getX() + 492);
                     if(lblFirstTitle.getX() == -492) {
-                        System.out.println("pause3");
                         pausarTimer();
                     }
-                    System.out.println("entrou3 - " + (lblFirstTitle.getX()));
                 }
                 if(lblFirstTitle.getX() <= -492 && lblFirstTitle.getX() >= -998) {
                     resizeText(lblFirstTitle.getX() + 996);
                     if(lblFirstTitle.getX() == -996) {
-                        System.out.println("pause4");
                         pausarTimer();
                     }
-                    System.out.println("entrou4 - " + (lblFirstTitle.getX()));
                 }
                 
             }

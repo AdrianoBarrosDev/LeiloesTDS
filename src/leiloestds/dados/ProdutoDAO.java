@@ -10,14 +10,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
-public class ProdutosDAO {
+public class ProdutoDAO {
     
     Connection conn;
     PreparedStatement prep;
     ResultSet resultset;
-    ArrayList<Produtos> listagem = new ArrayList<>();
+    ArrayList<Produto> listagem = new ArrayList<>();
     
-    public void cadastrarProduto (Produtos produto){
+    public void cadastrarProduto (Produto produto){
         
         String sql = "INSERT INTO produtos(nome, valor, status) VALUES (?, ?, ?)";
         try {
@@ -29,12 +29,12 @@ public class ProdutosDAO {
             prep.executeUpdate();
             
         } catch (SQLException ex) {
-            Logger.getLogger(ProdutosDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ProdutoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }
     
-    public ArrayList<Produtos> listarProdutos(){
+    public ArrayList<Produto> listarProdutos(){
         
         String sql = "SELECT * FROM produtos";
         try {
@@ -42,7 +42,7 @@ public class ProdutosDAO {
             prep = conn.prepareStatement(sql);
             resultset = prep.executeQuery();
             while(resultset.next()) {
-                Produtos produto = new Produtos();
+                Produto produto = new Produto();
                 produto.setId(resultset.getInt("id"));
                 produto.setNome(resultset.getString("nome"));
                 produto.setValor(resultset.getInt("valor"));
@@ -51,7 +51,7 @@ public class ProdutosDAO {
             }
             
         } catch (SQLException ex) {
-            Logger.getLogger(ProdutosDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ProdutoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return listagem;

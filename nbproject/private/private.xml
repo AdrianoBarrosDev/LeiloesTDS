@@ -3,33 +3,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/layouts/RoundedCornerBorder.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/shadows/ShadowType.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/shadows/CircleButtonShadow.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/dados/ProdutosDAO.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/layouts/RoundedPanel.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/dados/conectaDAO.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/ferramentas/Line.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/classes/Manager.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/ferramentas/TextSlider.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/layouts/RoundedButtonRadius.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/classes/Fonts.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/ferramentas/LinesComponent.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/telas/TelaDefault.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/main/LeiloesTDS.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/telas/TelaVendas.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/shadows/PanelShadow.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/layouts/RoundedTextField.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/telas/TelaProdutos.java</file>
+            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/dados/ProdutosDAO.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/shadows/GraphicsUtilities.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/classes/Telas.java</file>
+            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/dados/conectaDAO.java</file>
+            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/classes/Manager.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/dados/Produtos.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/ferramentas/ImageSlider.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/shadows/ShadowRenderer.java</file>
-            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/ferramentas/InfoBar.java</file>
+            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/classes/Fonts.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/telas/TelaCadastro.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/telas/TelaInicial.java</file>
+            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/telas/TelaDefault.java</file>
+            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/main/LeiloesTDS.java</file>
             <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/classes/ConfigFrame.java</file>
+            <file>file:/C:/Users/Usuário/Documents/NetBeansProjects/LeilõesTDS/src/leiloestds/telas/TelaVendas.java</file>
         </group>
     </open-files>
 </project-private>

@@ -175,6 +175,7 @@ public class TelaInicial implements ActionListener {
         btnProdutos.setForeground(Color.BLACK);
         btnProdutos.setFont(new Font("Poppins", Font.BOLD, 23));
         btnProdutos.configBackgroundBtn();
+        btnProdutos.changeColors(new Color(0xE5DDC5), new Color(0xBBB091));
         pnlInicial.add(btnProdutos.getPnlBackground());
         
     }

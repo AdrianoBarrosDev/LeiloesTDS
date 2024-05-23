@@ -1,14 +1,14 @@
 package leiloestds.dados;
 
 
-public class Produtos {
+public class Produto {
 
     private Integer id;
     private String nome;
     private Integer valor;
     private String status;
     
-    public Produtos() {
+    public Produto() {
         
     }
 

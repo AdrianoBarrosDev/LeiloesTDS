@@ -192,6 +192,9 @@ public class TelaCadastro implements ActionListener {
                 ProdutoDAO dao = new ProdutoDAO();
                 dao.cadastrarProduto(produto);
                 
+                TelaContinuar telaContinuar = new TelaContinuar(configFrame);
+                telaContinuar.configTelaContinuar();
+                
                 txtNome.setText("");
                 txtValor.setText("");
                 configFrame.getMainFrame().repaint();

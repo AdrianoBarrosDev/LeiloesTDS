@@ -170,6 +170,7 @@ public class TelaInicial implements ActionListener {
     public void configBtns() {
         
         btnProdutos = new RoundedButtonRadius("Produtos", 15, new Color(0xE5DDC5));
+        btnProdutos.addActionListener(this);
         btnProdutos.setBounds(145, 605, 235, 58);
         btnProdutos.setBackground(new Color(0xE5DDC5));
         btnProdutos.setForeground(Color.BLACK);
@@ -185,7 +186,8 @@ public class TelaInicial implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         
         if(e.getSource() == btnProdutos) {
-            layerDefault.remove(layeredPane);
+            configFrame.getMainFrame().remove(layerDefault);
+            configFrame.getManager().getTelas().getTelaDefault().configTelaDefault();
             configFrame.getManager().getTelas().getTelaProdutos().configTelaProdutos();
         }
         

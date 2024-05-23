@@ -187,6 +187,7 @@ public class TelaCadastro implements ActionListener {
                 Produto produto = new Produto();
                 produto.setNome(txtNome.getText());
                 produto.setValor(Integer.parseInt(txtValor.getText()));
+                produto.setStatus("À venda");
                 
                 ProdutoDAO dao = new ProdutoDAO();
                 dao.cadastrarProduto(produto);

@@ -34,6 +34,25 @@ public class ProdutoDAO {
         
     }
     
+    
+    public void venderProduto(int id) {
+        
+        String sql = "UPDATE produtos SET status = ? WHERE id = ?";
+        try {
+            conn = new conectaDAO().connectDB();
+            prep = conn.prepareStatement(sql);
+            prep.setString(1, "Vendido");
+            prep.setInt(2, id);
+            prep.executeUpdate();
+            
+        } catch(SQLException ex) {
+            System.out.println(ex.getMessage());
+            System.out.println("Erro ao vender produto no banco de dados!");
+        }
+        
+    }
+    
+    
     public ArrayList<Produto> listarProdutos(){
         
         String sql = "SELECT * FROM produtos";

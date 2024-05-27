@@ -130,7 +130,7 @@ public class TelaContinuar implements ActionListener {
         layersConfirmar.add(btnContinuar.getPnlBackground(), JLayeredPane.POPUP_LAYER);
         
         // Configurações do botão "Voltar"
-        btnLista = new RoundedButtonRadius("Ver Lista", 10, new Color(0x289B2D));
+        btnLista = new RoundedButtonRadius("Consultar Vendas", 10, new Color(0x289B2D));
         btnLista.addActionListener(this);
         btnLista.setBounds(759, 592, 182, 39);
         btnLista.setBackground(new Color(0x289B2D));

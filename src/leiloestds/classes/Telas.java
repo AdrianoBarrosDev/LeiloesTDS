@@ -40,5 +40,9 @@ public class Telas {
     public TelaProdutos getTelaProdutos() {
         return telaProdutos;
     }
+
+    public TelaVendas getTelaVendas() {
+        return telaVendas;
+    }
     
 }

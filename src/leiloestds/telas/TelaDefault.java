@@ -162,10 +162,10 @@ public class TelaDefault implements ActionListener {
             configFrame.getMainFrame().repaint();
             
         } else if(e.getSource() == btnVendas) {
-            //configFrame.getMainFrame().remove(layerDefault);
+            configFrame.getMainFrame().remove(layerDefault);
             configTelaDefault();
-            //configFrame.getManager().getTelas().getTelaVendas().configTelaVendas();
-            //configFrame.getMainFrame().repaint();
+            configFrame.getManager().getTelas().getTelaVendas().configTelaVendas();
+            configFrame.getMainFrame().repaint();
             
         }
         

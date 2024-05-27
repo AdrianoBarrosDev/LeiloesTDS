@@ -117,6 +117,25 @@ public class TableProdutos extends JPanel {
     }
     
     
+    public void tabelaPersonalizada(ArrayList<Produto> listaProdutos) {
+        
+        // Limpa as informações antigas
+        limparTabela();
+        
+        // Adiciona todos os produtos da lista na tabela
+        for(Produto p : listaProdutos) {
+            Object[] object = {
+                p.getId(),
+                p.getNome(),
+                p.getValor(),
+                p.getStatus()
+            };
+            model.addRow(object);
+        }
+        
+    }
+    
+    
     private void changeColorsHeader(Color colorDefault) {
         
         for(int i = 0; i < tabelaProdutos.getModel().getColumnCount(); i++) {

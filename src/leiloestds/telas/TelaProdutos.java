@@ -106,7 +106,7 @@ public class TelaProdutos implements ActionListener {
         pnlTitleVender.setLayout(null);
         pnlVender.add(pnlTitleVender);
         
-        // Painel para o cadastro
+        // Painel para a lista de produtos
         pnlListaProdutos = new PanelShadow(60);
         pnlListaProdutos.setBounds(571, 0, 518, 392);
         pnlListaProdutos.setBackground(new Color(0xE5DDC5));

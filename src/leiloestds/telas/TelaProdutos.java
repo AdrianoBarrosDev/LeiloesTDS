@@ -120,8 +120,8 @@ public class TelaProdutos implements ActionListener {
     
     public void configText() {
         
-        // Texto "Novo Produto"
-        JLabel lblListaProduto = new JLabel("Novo Produto");
+        // Texto "Lista Produto"
+        JLabel lblListaProduto = new JLabel("Lista Produto");
         lblListaProduto.setBounds(50, 23, 815, 145);
         lblListaProduto.setForeground(Color.BLACK);
         lblListaProduto.setFont(new Font("Trocchi", Font.PLAIN, 100));

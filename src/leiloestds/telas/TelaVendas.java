@@ -88,7 +88,7 @@ public class TelaVendas {
     
     public void configText() {
         
-        // Texto "Novo Produto"
+        // Texto "Lista Vendas"
         JLabel lblListaProduto = new JLabel("Lista Vendas");
         lblListaProduto.setBounds(50, 23, 815, 145);
         lblListaProduto.setForeground(Color.BLACK);

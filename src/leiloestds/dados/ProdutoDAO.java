@@ -17,6 +17,8 @@ public class ProdutoDAO {
     ResultSet resultset;
     ArrayList<Produto> listagem = new ArrayList<>();
     
+    
+    // Cadastra o produto no banco de dados
     public void cadastrarProduto (Produto produto){
         
         String sql = "INSERT INTO produtos(nome, valor, status) VALUES (?, ?, ?)";
@@ -35,6 +37,7 @@ public class ProdutoDAO {
     }
     
     
+    // Método para atualizar o status do produto no banco de dados para "Vendido"
     public void venderProduto(int id) {
         
         String sql = "UPDATE produtos SET status = ? WHERE id = ?";
@@ -53,6 +56,7 @@ public class ProdutoDAO {
     }
     
     
+    // Retorna a lista de produtos
     public ArrayList<Produto> listarProdutos(){
         
         String sql = "SELECT * FROM produtos";
@@ -77,6 +81,7 @@ public class ProdutoDAO {
     }
     
     
+    // Retorna a lista de produtos vendidos
     public ArrayList<Produto> listarProdutosVendidos(){
         
         String sql = "SELECT * FROM produtos WHERE status = ?";
